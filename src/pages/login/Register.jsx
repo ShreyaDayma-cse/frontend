@@ -21,7 +21,7 @@ const Register = () =>{
     async function saveUser(e){
         e.preventDefault();
         try{
-            await axios.post("https://shreyadayma-cse.github.io/backend/api/auth/register", credentials);
+            await axios.post("https://hotel-backend.onrender.com/api/auth/register", credentials);
             navigate("/login")
            
         }catch(err){
