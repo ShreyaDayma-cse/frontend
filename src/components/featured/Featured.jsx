@@ -3,7 +3,7 @@ import useFetch from "../../hooks/useFetch.js";
 
 const Featured = () => {
 
-  const {data,loading,error} = useFetch("https://backend-hotel-book.herokuapp.com/api/hotels/countByCity?cities=berlin,madrid,london")
+  const {data,loading,error} = useFetch("https://hotel-backend.onrender.com/api/hotels/countByCity?cities=berlin,madrid,london")
   
   return (
     <div className="featured">
